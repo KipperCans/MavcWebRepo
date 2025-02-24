@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+
+/**** globals class for site wide Header and Footer ****/
+
+.globals {
+    background-color: rgb(98, 76, 76);
+    margin: auto;
+    width: auto;
+    color: lightgray;
+    text-align: center;
+}
+
+.globals img {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    width: 100%;
+    height: auto;
+}
+
+.globals button {
+    padding-inline: 10px;
+}
+
+.header-buttons {
+    text-align: left;
+}
+
+.footer-links {
+    padding-inline: 10px;
+}
+
+
+/****** strategy guide ********/
+
+#strategy-guide {
+    background-color: rgb(176, 143, 106);
+    color: rgb(21, 21, 21);
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 85%;
+    border: 3px solid rgb(10, 100, 93);
+    padding: 10px;
+}
+
+#strategy-guide h1 {
+    text-align: center;
+}
+
+#strategy-guide h2 {
+    text-indent: 30px;
+}
+
+#strategy-guide h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#strategy-guide p {
+    text-indent: 15px;
+}
+
+#strategy-guide hr {
+    height: 3px;
+    border-width: 0px;
+    background-color: rgb(10, 100, 93);
+    margin: 0px;
+}
+
+/* use 'strong' style for health upgrade hints */
+#strategy-guide strong {
+    background-color: #80000075;
+    font-weight: normal;
+}
+
+/* use 'emphasis' style for achievement hints */
+#strategy-guide em {
+    background-color: #49008075;
+    font-style: normal;
+}
+
+.flex-container-strat {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.flex-container-strat img {
+    width: 100%;
+    height: auto;
+    margin-inline: 5px;
+}
+
+.flex-container-strat p {
+    max-width: 50%;
+    height: auto;
+    margin-inline: 5px;
+}
+
+
